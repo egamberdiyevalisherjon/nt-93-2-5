@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+
+  header#main-header .logo {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 48%;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 380px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 100%;
+    padding-inline: 1rem;
+  }
+
+  header#main-header .main-nav > ul {
+    display: none;
+  }
+
+  header#main-header .main-nav .dropdown {
+    display: block;
+  }
+}
